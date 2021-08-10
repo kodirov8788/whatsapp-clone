@@ -19,6 +19,7 @@ function Chat() {
   const [messages, setMessages] = useState([]);
   const [{ user }, dispatch] = useStateValue();
 
+    console.log(dispatch);
 
   useEffect(() => {
     if (roomId) {

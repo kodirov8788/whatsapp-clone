@@ -8,6 +8,8 @@ import { useStateValue } from "./StateProvider";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
+    console.log(dispatch);
+
   return (
     <div className="app">
       {!user ? (
